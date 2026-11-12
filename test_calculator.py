@@ -9,7 +9,7 @@ def test_add_negative():
 
 def test_reverse_string():
     assert reverse_string("hello") == "olleh"
-    assert reverse_string("GitHub") == "buhiG"
+    assert reverse_string("GitHub") == "buHtiG"  # замінили buhiG на buHtiG
 
 def test_reverse_string_exception():
     with pytest.raises(TypeError):
